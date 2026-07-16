@@ -8,9 +8,9 @@ from time import sleep
 following_list = []
 followers_list = []
 handle = input()
-driver = webdriver.Chrome("/Users/jasonmoses/Downloads/chromedriver")
+driver = webdriver.Chrome("/Users/path/chromedriver")
 username = "saturdayadam612@gmail.com"
-password = "Harmonymane7"
+password = "password"
 driver.get(f"https://www.instagram.com/{handle}/")
 sleep(2)
 sleep(2)
